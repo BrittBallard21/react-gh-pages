@@ -90,14 +90,14 @@ function App() {
     <div className="App">
         <Header className="Header"/>
         <div>
-          <Router basename={`${process.env.PUBLIC_URL}`}>
+          <Router>
             {console.log(process.env.PUBLIC_URL)}
             <div className="container">
               <div className="nav" style={BUTTONSTYLE} />
                   <Nav />
               </div>   
                     <Switch>
-                      <Route exact path="/" component={Home}>
+                      <Route exact path="/react-gh-pages" component={Home}>
                           <>
                             {/* <Dashboard hikes={hikes}/>
                             <Hikes hikes={hikes} removeHike={removeHike} setEditHike={setEditHike} /> */}
@@ -106,7 +106,7 @@ function App() {
                               {editHike ? Edit : Home  } 
                           </>
                       </Route>
-                      <Route path="/newentry">
+                      <Route path="/react-gh-pages/newentry">
                           <NewEntry hikes={hikes} addHikes={setHikes} />
                       </Route>
                     </Switch>
