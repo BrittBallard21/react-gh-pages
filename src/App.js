@@ -90,7 +90,7 @@ function App() {
     <div className="App">
         <Header className="Header"/>
         <div>
-          <Router basename={'https://brittballard21.github.io/react-gh-pages'}>
+          <Router basename={'/'}>
             <div className="container">
               <div className="nav" style={BUTTONSTYLE} />
                   <Nav />
