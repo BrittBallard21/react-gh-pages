@@ -1,0 +1,11 @@
+
+
+.formRow {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.formRow > * {
+    margin: 12px;
+}  

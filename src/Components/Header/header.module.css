@@ -1,0 +1,15 @@
+.parent {
+    position: relative;
+}
+.parent {
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(../../images/hiking-trail.jpg);
+    padding-top: 3%;
+    background-repeat: round;
+}
+
+.child {
+    opacity: 1;
+    font-weight: bold;
+    color: #03929E;
+ 
+}

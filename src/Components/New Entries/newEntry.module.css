@@ -1,0 +1,10 @@
+.newEntry{
+    background-color: #0F561B;
+    width: 45%;
+    border-radius: 6%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
