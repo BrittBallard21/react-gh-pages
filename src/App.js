@@ -91,6 +91,7 @@ function App() {
         <Header className="Header"/>
         <div>
           <Router basename={process.env.PUBLIC_URL}>
+            {console.log(process.env.PUBLIC_URL)}
             <div className="container">
               <div className="nav" style={BUTTONSTYLE} />
                   <Nav />
