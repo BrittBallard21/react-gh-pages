@@ -90,13 +90,13 @@ function App() {
     <div className="App">
         <Header className="Header"/>
         <div>
-          <Router>
+          <Router basename={'directory-name'}>
             <div className="container">
               <div className="nav" style={BUTTONSTYLE} />
                   <Nav />
               </div>   
                     <Switch>
-                      <Route exact path="/">
+                      <Route path="/" component ={Home}>
                           <>
                             {/* <Dashboard hikes={hikes}/>
                             <Hikes hikes={hikes} removeHike={removeHike} setEditHike={setEditHike} /> */}
