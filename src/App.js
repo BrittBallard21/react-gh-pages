@@ -97,7 +97,7 @@ function App() {
                   <Nav />
               </div>   
                     <Switch>
-                      <Route path="/" component={Home}>
+                      <Route exact path="/" component={Home}>
                           <>
                             {/* <Dashboard hikes={hikes}/>
                             <Hikes hikes={hikes} removeHike={removeHike} setEditHike={setEditHike} /> */}
